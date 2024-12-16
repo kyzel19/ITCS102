@@ -857,23 +857,97 @@ def code_challenge16():
     print("\n====================================================================\n")
    
 
-
+ 
    
 def main():
-    while True:
-        x = input("enter a command: ")
+    tuloy = True:
+    while == True:
+        print("\n====================================================================\n")
+        print("Welcome to my Program")
+        print("\n====================================================================\n")
+    
+        x = input("Enter a command: ")
         if x == "exit":
-            print("programm executed")
+            print("Program Executed")
             break
+            tuloy == False
         else:
-            if x == "sample":
-                sample()
-            elif x == "Act1":
-                Activity1()
+            if x == "Act1":
+                Activity1
+                continue
             elif x == "Act2": 
                 Activity2()
+                continue
             elif x == "Act3":
                 Activity3()
+                continue
+            elif x == "Act4":
+                Activity4()
+                continue
+            elif x == "Act5":
+                Activity5()
+                continue
+            elif x == "Act6":
+                Activity6()
+                continue
+            elif x == "Act7":
+                Activity7()
+                continue
+            elif x == "Act8":
+                Activity8()
+                continue
+            elif x == "Act9":
+                Activity9()
+                continue
+            elif x == "Act10":
+                Activity10()
+                continue
+            elif x == "Act11":
+                Activity11()
+                continue
+            elif x == "Act12":
+                Activity12()
+                continue
+            elif x == "Act13":
+                Activity13()
+                continue
+            elif x == "Act14":
+                Activity14()
+                continue
+            elif x == "Act15":
+                Activity15()
+                continue
+            elif x == "Act16":
+                Activity16()
+                continue
+            elif x == "Act17":
+                Activity17()
+                continue
+            elif x == "Act18":
+                Activity18()
+                continue
+            elif x == "Act19":
+                Activity19()
+                continue
+            elif x == "Act20":
+                Activity20()
+                continue
+            elif x == "Act21":
+                Activity21()
+                continue
+            elif x == "Act22":
+                Activity22()
+                continue
+            elif x == "Act23":
+                Activity23()
+                continue
+            elif x == "Act24":
+                Activity24()
+                continue
+            elif x == "Act25":
+                Activity25()
+                continue
+                
 main()
 
 

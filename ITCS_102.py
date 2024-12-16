@@ -550,20 +550,20 @@ def code_challenge7():
     two_discount = orig_price - (taxed_price * 0.161)
 
     if age >= 60 and age <= 150 and orig_price >= 4000 :
-    print(f'Total : {round(two_discount,2)}')
-    payment = eval(input("Payment :"))
-    print(f'Change : {round(payment - two_discount,2)}')
-        
+        print(f'Total : {round(two_discount,2)}')
+        payment = eval(input("Payment :"))
+        print(f'Change : {round(payment - two_discount,2)}')
+            
     elif orig_price >= 4000 :
-    print(f'Total : {round(discount_taxed_price, 2)} ')
-    payment = eval(input("Payment :"))
-    print(f'Change : {round(payment - discount_taxed_price, 2)} ')
+        print(f'Total : {round(discount_taxed_price, 2)} ')
+        payment = eval(input("Payment :"))
+        print(f'Change : {round(payment - discount_taxed_price, 2)} ')
 
     elif age >= 60 and age <= 150 :
-    print(f'Total : {round(discount_senior,2)} ')
-    payment = eval(input("Payment :"))
-    print(f'Change : {round(payment - discount_senior,2)} ')
-        
+        print(f'Total : {round(discount_senior,2)} ')
+        payment = eval(input("Payment :"))
+        print(f'Change : {round(payment - discount_senior,2)} ')
+            
     else : 
         print(f'Total : {round(taxed_price,2)} ')
         payment = eval(input("Payment :"))

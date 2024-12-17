@@ -12,22 +12,22 @@ def main():
         print("\n\t\t\t\t\t=======================================================\n")
         print("\n\t\t\t\t\t=======================| Activities |==================\n")
         print("\t\t\t\t\t|| 1 - Activity 1                       14 - Activity 14 ||")
-        print("\t\t\t\t\t|| 2 - Acticity 2                       15 - Activity 15 ||")
-        print("\t\t\t\t\t|| 3 - Acticity 3                       16 - Activity 16 ||")
-        print("\t\t\t\t\t|| 4 - Acticity 4                       17 - Activity 17 ||")
-        print("\t\t\t\t\t|| 5 - Acticity 5                       18 - Activity 18 ||")
-        print("\t\t\t\t\t|| 6 - Acticity 6                       19 - Activity 19 ||")
-        print("\t\t\t\t\t|| 7 - Acticity 7                       20 - Activity 20 ||")
-        print("\t\t\t\t\t|| 8 - Acticity 8                       21 - Activity 21 ||")
-        print("\t\t\t\t\t|| 9 - Acticity 9                       22 - Activity 22 ||")
-        print("\t\t\t\t\t|| 10 - Acticity 10                     23 - Activity 23 ||")
-        print("\t\t\t\t\t|| 11 - Acticity 11                     24 - Activity 24 ||")
-        print("\t\t\t\t\t|| 12 - Acticity 12                     25 - Activity 25 ||")
+        print("\t\t\t\t\t|| 2 - Activity 2                       15 - Activity 15 ||")
+        print("\t\t\t\t\t|| 3 - Activity 3                       16 - Activity 16 ||")
+        print("\t\t\t\t\t|| 4 - Activity 4                       17 - Activity 17 ||")
+        print("\t\t\t\t\t|| 5 - Activity 5                       18 - Activity 18 ||")
+        print("\t\t\t\t\t|| 6 - Activity 6                       19 - Activity 19 ||")
+        print("\t\t\t\t\t|| 7 - Activity 7                       20 - Activity 20 ||")
+        print("\t\t\t\t\t|| 8 - Activity 8                       21 - Activity 21 ||")
+        print("\t\t\t\t\t|| 9 - Activity 9                       22 - Activity 22 ||")
+        print("\t\t\t\t\t|| 10 - Activity 10                     23 - Activity 23 ||")
+        print("\t\t\t\t\t|| 11 - Activity 11                     24 - Activity 24 ||")
+        print("\t\t\t\t\t|| 12 - Activity 12                     25 - Activity 25 ||")
         print("\n\t\t\t\t\t================================================================\n\n")
 
 
         print("\n\t\t\t\t\t=====================| Code Challenges |========================\n")
-        print("\t\t\t\t\t|| C1 - Code Challenge 1               C9 - Code Challenge 9 ||")
+        print("\t\t\t\t\t|| C1 - Code Challenge 1               C9 - Code Challenge 9   ||")
         print("\t\t\t\t\t|| C2 - Code Challenge 2               C10 - Code Challenge 10 ||")
         print("\t\t\t\t\t|| C3 - Code Challenge 3               C11 - Code Challenge 11 ||")
         print("\t\t\t\t\t|| C4 - Code Challenge 4               C12 - Code Challenge 12 ||")
@@ -45,7 +45,7 @@ def main():
             break
             # tuloy == False
         else:
-            if x == "1":
+            if x.lower() == "1":
                 os.system('cls')
                 def Activity1():
                     print("\n====================================================================\n")
@@ -54,7 +54,7 @@ def main():
                     print("\n====================================================================\n")
                 Activity1()
                 continue
-            elif x =="2":
+            elif x.lower() =="2":
                 os.system('cls')
                 def Activity2():
                     print("\n====================================================================\n")
@@ -67,7 +67,7 @@ def main():
                 Activity2()
                 continue
 
-            elif x == "3":
+            elif x.lower() == "3":
                 os.system('cls')
                 def Activity3():
                     print("\n====================================================================\n")
@@ -109,7 +109,7 @@ def main():
                 Activity3()
                 continue
 
-            elif x == "4":
+            elif x.lower() == "4":
                 os.system('cls')
                 def Activity4():
                     print("\n====================================================================\n")
@@ -122,7 +122,7 @@ def main():
                 Activity4()
                 continue
 
-            elif x == "5":
+            elif x.lower() == "5":
                 os.system('cls')
                 def Activity5():
                     print("\n====================================================================\n")
@@ -136,7 +136,7 @@ def main():
                 Activity5()
                 continue
 
-            elif x == "6":
+            elif x.lower() == "6":
                 os.system('cls')
                 def Activity6():
                     print("\n====================================================================\n")
@@ -155,7 +155,7 @@ def main():
                 Activity6()
                 continue
 
-            elif x == "7":
+            elif x.lower() == "7":
                 os.system('cls')
                 def Activity7():
                     print("\n====================================================================\n")
@@ -172,7 +172,7 @@ def main():
                 Activity7()
                 continue
 
-            elif x == "8":
+            elif x.lower() == "8":
                 os.system('cls')
                 def Activity8():
                     print("\n====================================================================\n")
@@ -192,7 +192,7 @@ def main():
                 Activity8()
                 continue
 
-            elif x == "9":
+            elif x.lower() == "9":
                 os.system('cls')
                 def Activity9():
                     print("\n====================================================================\n")
@@ -216,7 +216,7 @@ def main():
                 Activity9()
                 continue
 
-            elif x == "10":
+            elif x.lower() == "10":
                 os.system('cls')
                 def Activity10():
                     print("\n====================================================================\n")
@@ -255,7 +255,7 @@ def main():
                 Activity10()
                 continue
 
-            elif x == "11":
+            elif x.lower() == "11":
                 os.system('cls')
                 def Activity11():
                     print("\n====================================================================\n")
@@ -268,7 +268,7 @@ def main():
                 Activity11()
                 continue
 
-            elif x == "12":
+            elif x.lower() == "12":
                 os.system('cls')
                 def Activity12():
                     print("\n====================================================================\n")
@@ -279,7 +279,7 @@ def main():
                 Activity12()
                 continue
 
-            elif x == "13":
+            elif x.lower() == "13":
                 os.system('cls')
                 def Activity13():
                     print("\n====================================================================\n")
@@ -294,7 +294,7 @@ def main():
                 Activity13()
                 continue
 
-            elif x == "14":
+            elif x.lower() == "14":
                 os.system('cls')
                 def Activity14():
                     print("\n====================================================================\n")
@@ -307,7 +307,7 @@ def main():
                 Activity14()
                 continue
 
-            elif x == "15":
+            elif x.lower() == "15":
                 os.system('cls')
                 def Activity15():
                     print("\n====================================================================\n")
@@ -321,7 +321,7 @@ def main():
                 Activity15()
                 continue
 
-            elif x == "16":
+            elif x.lower() == "16":
                 os.system('cls')
                 def Activity16():
                     print("\n====================================================================\n")
@@ -338,7 +338,7 @@ def main():
                 Activity16()
                 continue
 
-            elif x == "17":
+            elif x.lower() == "17":
                 os.system('cls')
                 def Activity17():
                     print("\n====================================================================\n")
@@ -352,7 +352,7 @@ def main():
                 Activity17()
                 continue
 
-            elif x == "18":
+            elif x.lower() == "18":
                 os.system('cls')
                 def Activity18():
                     print("\n====================================================================\n")
@@ -370,7 +370,7 @@ def main():
                 Activity18()
                 continue
 
-            elif x == "19":
+            elif x.lower() == "19":
                 os.system('cls')
                 def Activity19():
                     print("\n====================================================================\n")
@@ -389,7 +389,7 @@ def main():
                 Activity19()
                 continue
 
-            elif x == "20":
+            elif x.lower() == "20":
                 os.system('cls')
                 def Activity20():
                     print("\n====================================================================\n")
@@ -418,7 +418,7 @@ def main():
                 Activity20()
                 continue
 
-            elif x == "21":
+            elif x.lower() == "21":
                 os.system('cls')
                 def Activity21():
                     print("\n====================================================================\n")
@@ -451,7 +451,7 @@ def main():
                 Activity21()
                 continue
 
-            elif x == "22":
+            elif x.lower() == "22":
                 os.system('cls')
                 def Activity22():
                     print("\n====================================================================\n")
@@ -472,7 +472,7 @@ def main():
                 Activity22()
                 continue
 
-            elif x == "23":
+            elif x.lower() == "23":
                 os.system('cls')
                 def Activity23():
                     print("\n====================================================================\n")
@@ -486,7 +486,7 @@ def main():
                 Activity23()
                 continue
 
-            elif x == "24":
+            elif x.lower() == "24":
                 os.system('cls')
                 def Activity24():
                     print("\n====================================================================\n")
@@ -497,7 +497,7 @@ def main():
                 Activity24()
                 continue
 
-            elif x == "25":
+            elif x.lower() == "25":
                 os.system('cls')
                 def Activity25():
                     print("\n====================================================================\n")
@@ -515,7 +515,7 @@ def main():
                 Activity25()
                 continue
                 
-            elif x == "C1":
+            elif x.lower() == "c1":
                 os.system('cls')
                 def code_challenge1():
                     print("\n====================================================================\n")
@@ -525,7 +525,7 @@ def main():
                 code_challenge1()
                 continue
 
-            elif x == "C2":
+            elif x.lower() == "c2":
                 os.system('cls')
                 def code_challenge2():
                     print("\n====================================================================\n")
@@ -537,7 +537,7 @@ def main():
                 code_challenge2()
                 continue
             
-            elif x == "C3":
+            elif x.lower() == "c3":
                 os.system('cls')
                 def code_challenge3():
                     print("\n====================================================================\n")
@@ -579,7 +579,7 @@ def main():
                 code_challenge3()
                 continue
 
-            elif x == "C4":
+            elif x.lower() == "c4":
                 os.system('cls')
                 def code_challenge4():
                     print("\n====================================================================\n")
@@ -604,7 +604,7 @@ def main():
                 code_challenge4()
                 continue
 
-            elif x == "C5":
+            elif x.lower() == "c5":
                 os.system('cls')
                 def code_challenge5():
                     print("\n====================================================================\n")
@@ -642,7 +642,7 @@ def main():
                 code_challenge5()
                 continue
 
-            elif x == "C6":
+            elif x.lower() == "c6":
                 os.system('cls')
                 def code_challenge6():
                     print("\n====================================================================\n")
@@ -667,7 +667,7 @@ def main():
                 code_challenge6()
                 continue
 
-            elif x == "C7":
+            elif x.lower() == "c7":
                 os.system('cls')
                 def code_challenge7():
                     print("\n====================================================================\n")
@@ -719,7 +719,7 @@ def main():
                 code_challenge7()
                 continue
 
-            elif x == "C8":
+            elif x.lower() == "c8":
                 os.system('cls')
                 def code_challenge8():
                     print("\n====================================================================\n")
@@ -743,7 +743,7 @@ def main():
                 code_challenge8()
                 continue
 
-            elif x == "C9":
+            elif x.lower() == "c9":
                 os.system('cls')
                 def code_challenge9():
                     print("\n====================================================================\n")
@@ -757,7 +757,7 @@ def main():
                 code_challenge9()
                 continue
 
-            elif x == "C10":
+            elif x.lower() == "C10":
                 os.system('cls')
                 def code_challenge10():
                     print("\n====================================================================\n")
@@ -783,7 +783,7 @@ def main():
                 code_challenge10()
                 continue
 
-            elif x == "C11":
+            elif x.lower() == "c11":
                 os.system('cls')
                 def code_challenge11():
                     print("\n====================================================================\n")
@@ -809,9 +809,9 @@ def main():
                 code_challenge11()
                 continue
 
-            elif x == "C12":
-                os.system('cls')
+            elif x.lower() == "c12":
                 def code_challenge12():
+                    os.system('cls')
                     print("\n====================================================================\n")
                     print("Code Challenge 12\n")
                     for k in range(1,5):
@@ -835,7 +835,7 @@ def main():
                 code_challenge12()
                 continue
 
-            elif x == "C13":
+            elif x.lower() == "c13":
                 os.system('cls')
                 def code_challenge13():
                     print("\n====================================================================\n")
@@ -861,7 +861,7 @@ def main():
                 code_challenge13()
                 continue
 
-            elif x == "C14":
+            elif x.lower() == "c14":
                 os.system('cls')
                 def code_challenge14():
                     print("\n====================================================================\n")
@@ -882,7 +882,7 @@ def main():
                 code_challenge14()
                 continue
 
-            elif x == "C15":
+            elif x.lower() == "c15":
                 os.system('cls')
                 def code_challenge15():
                     print("\n====================================================================\n")
@@ -915,7 +915,7 @@ def main():
                 code_challenge15()
                 continue
 
-            elif x == "C16":
+            elif x.lower() == "c16":
                 os.system('cls')
                 def code_challenge16():
                     print("\n====================================================================\n")
@@ -1042,9 +1042,9 @@ def main():
                 continue
         
             if x == "0":
-                os.system('cls')
+                os.system("cls")
                 def exit():
-                    print("I hope you have fun exploring my code!")
+                    print("\n\n\n\n\t\t\t\t\t\tI hope you have fun exploring my code!\n\n")
                 exit()
                 break
 
